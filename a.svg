@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mindmap" class="markmap mindmap"><style>.markmap {
+  --markmap-max-width: 9999px;
+  --markmap-a-color: #0097e6;
+  --markmap-a-hover-color: #00a8ff;
+  --markmap-code-bg: #f0f0f0;
+  --markmap-code-color: #555;
+  --markmap-highlight-bg: #ffeaa7;
+  --markmap-table-border: 1px solid currentColor;
+  --markmap-font: 300 16px/20px sans-serif;
+  --markmap-circle-open-bg: #fff;
+  --markmap-text-color: #333;
+  --markmap-highlight-node-bg: #ff02;
+
+  font: var(--markmap-font);
+  color: var(--markmap-text-color);
+}
+
+  .markmap-link {
+    fill: none;
+  }
+
+  .markmap-node &gt; circle {
+      cursor: pointer;
+    }
+
+  .markmap-foreign {
+    display: inline-block;
+  }
+
+  .markmap-foreign p {
+      margin: 0;
+    }
+
+  .markmap-foreign a {
+      color: var(--markmap-a-color);
+    }
+
+  .markmap-foreign a:hover {
+        color: var(--markmap-a-hover-color);
+      }
+
+  .markmap-foreign code {
+      padding: 0.25em;
+      font-size: calc(1em - 2px);
+      color: var(--markmap-code-color);
+      background-color: var(--markmap-code-bg);
+      border-radius: 2px;
+    }
+
+  .markmap-foreign pre {
+      margin: 0;
+    }
+
+  .markmap-foreign pre &gt; code {
+        display: block;
+      }
+
+  .markmap-foreign del {
+      text-decoration: line-through;
+    }
+
+  .markmap-foreign em {
+      font-style: italic;
+    }
+
+  .markmap-foreign strong {
+      font-weight: bold;
+    }
+
+  .markmap-foreign mark {
+      background: var(--markmap-highlight-bg);
+    }
+
+  .markmap-foreign table,
+    .markmap-foreign th,
+    .markmap-foreign td {
+      border-collapse: collapse;
+      border: var(--markmap-table-border);
+    }
+
+  .markmap-foreign img {
+      display: inline-block;
+    }
+
+  .markmap-foreign svg {
+      fill: currentColor;
+    }
+
+  .markmap-foreign &gt; div {
+      width: var(--markmap-max-width);
+      text-align: left;
+    }
+
+  .markmap-foreign &gt; div &gt; div {
+        display: inline-block;
+      }
+
+  .markmap-highlight rect {
+    fill: var(--markmap-highlight-node-bg);
+  }
+
+.markmap-dark .markmap {
+  --markmap-code-bg: #1a1b26;
+  --markmap-code-color: #ddd;
+  --markmap-circle-open-bg: #444;
+  --markmap-text-color: #eee;
+}
+</style><g transform="translate(119,271.625) scale(2)"><path class="markmap-link" data-depth="2" data-path="1.2" d="M37,11.25C77,11.25,77,-173.812,117,-173.812" stroke-width="1.75" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="2" data-path="1.3" d="M37,11.25C77,11.25,77,-147.062,117,-147.062" stroke-width="1.75" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="3" data-path="1.6.7" d="M197,-89.312C237,-89.312,237,-115.875,277,-115.875" stroke-width="1.375" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="3" data-path="1.6.8" d="M197,-89.312C237,-89.312,237,-89.5,277,-89.5" stroke-width="1.375" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="3" data-path="1.6.9" d="M197,-89.312C237,-89.312,237,-63.125,277,-63.125" stroke-width="1.375" stroke="rgb(44, 160, 44)"/><path class="markmap-link" data-depth="3" data-path="1.10.11" d="M197,-18.375C237,-18.375,237,-31.75,277,-31.75" stroke-width="1.375" stroke="rgb(214, 39, 40)"/><path class="markmap-link" data-depth="3" data-path="1.10.12" d="M197,-18.375C237,-18.375,237,-5.375,277,-5.375" stroke-width="1.375" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="3" data-path="1.13.14" d="M197,26.188C237,26.188,237,26,277,26" stroke-width="1.375" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="3" data-path="1.15.16" d="M197,70.75C237,70.75,237,57.375,277,57.375" stroke-width="1.375" stroke="rgb(227, 119, 194)"/><path class="markmap-link" data-depth="3" data-path="1.15.17" d="M197,70.75C237,70.75,237,83.75,277,83.75" stroke-width="1.375" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="2" data-path="1.5" d="M37,11.25C77,11.25,77,-118.187,117,-118.187" stroke-width="1.75" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="2" data-path="1.6" d="M37,11.25C77,11.25,77,-89.312,117,-89.312" stroke-width="1.75" stroke="rgb(140, 86, 75)"/><path class="markmap-link" data-depth="2" data-path="1.10" d="M37,11.25C77,11.25,77,-18.375,117,-18.375" stroke-width="1.75" stroke="rgb(255, 127, 14)"/><path class="markmap-link" data-depth="2" data-path="1.13" d="M37,11.25C77,11.25,77,26.188,117,26.188" stroke-width="1.75" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="2" data-path="1.15" d="M37,11.25C77,11.25,77,70.75,117,70.75" stroke-width="1.75" stroke="rgb(31, 119, 180)"/><path class="markmap-link" data-depth="2" data-path="1.18" d="M37,11.25C77,11.25,77,115.313,117,115.313" stroke-width="1.75" stroke="rgb(148, 103, 189)"/><path class="markmap-link" data-depth="2" data-path="1.19" d="M37,11.25C77,11.25,77,142.063,117,142.063" stroke-width="1.75" stroke="rgb(127, 127, 127)"/><path class="markmap-link" data-depth="2" data-path="1.20" d="M37,11.25C77,11.25,77,168.813,117,168.813" stroke-width="1.75" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="2" data-path="1.21" d="M37,11.25C77,11.25,77,195.563,117,195.563" stroke-width="1.75" stroke="rgb(188, 189, 34)"/><path class="markmap-link" data-depth="3" data-path="1.3.4" d="M197,-147.062C237,-147.062,237,-147.25,277,-147.25" stroke-width="1.375" stroke="rgb(23, 190, 207)"/><g class="markmap-highlight"><rect x="115" y="172.6875" width="78" height="24"/></g><g data-depth="2" data-path="1.2" class="markmap-node" transform="translate(117, -194.6875)"><line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">基础知识</div></div></foreignObject></g><g data-depth="3" data-path="1.3.4" class="markmap-node" transform="translate(277, -167.9375)"><line stroke="#17becf" stroke-width="1.375" x1="-1" x2="87" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="69" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">GUI和CLI</div></div></foreignObject></g><g data-depth="2" data-path="1.3" class="markmap-node" transform="translate(117, -167.9375)"><line stroke="#2ca02c" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">操作系统</div></div></foreignObject><circle stroke-width="1.5" r="6" stroke="#2ca02c" fill="var(--markmap-circle-open-bg)" cx="80" cy="20.875"/></g><g data-depth="2" data-path="1.5" class="markmap-node" transform="translate(117, -139.0625)"><line stroke="#9467bd" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">网络通信</div></div></foreignObject></g><g data-depth="3" data-path="1.6.7" class="markmap-node" transform="translate(277, -136.5625)"><line stroke="#1f77b4" stroke-width="1.375" x1="-1" x2="82" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">版本控制</div></div></foreignObject></g><g data-depth="3" data-path="1.6.8" class="markmap-node" transform="translate(277, -110.1875)"><line stroke="#ff7f0e" stroke-width="1.375" x1="-1" x2="82" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">编程语言</div></div></foreignObject></g><g data-depth="3" data-path="1.6.9" class="markmap-node" transform="translate(277, -83.8125)"><line stroke="#2ca02c" stroke-width="1.375" x1="-1" x2="82" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">编译执行</div></div></foreignObject></g><g data-depth="2" data-path="1.6" class="markmap-node" transform="translate(117, -110.1875)"><line stroke="#8c564b" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#8c564b" fill="var(--markmap-circle-open-bg)" cx="80" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">软件编程</div></div></foreignObject></g><g data-depth="3" data-path="1.10.11" class="markmap-node" transform="translate(277, -52.4375)"><line stroke="#d62728" stroke-width="1.375" x1="-1" x2="82" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">单元测试</div></div></foreignObject></g><g data-depth="3" data-path="1.10.12" class="markmap-node" transform="translate(277, -26.0625)"><line stroke="#9467bd" stroke-width="1.375" x1="-1" x2="98" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">自动化测试</div></div></foreignObject></g><g data-depth="2" data-path="1.10" class="markmap-node" transform="translate(117, -39.25)"><line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="80" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">软件测试</div></div></foreignObject></g><g data-depth="3" data-path="1.13.14" class="markmap-node" transform="translate(277, 5.3125)"><line stroke="#8c564b" stroke-width="1.375" x1="-1" x2="66" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="48" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">自动化</div></div></foreignObject></g><g data-depth="2" data-path="1.13" class="markmap-node" transform="translate(117, 5.3125)"><line stroke="#7f7f7f" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#7f7f7f" fill="var(--markmap-circle-open-bg)" cx="80" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">软件运维</div></div></foreignObject></g><g data-depth="3" data-path="1.15.16" class="markmap-node" transform="translate(277, 36.6875)"><line stroke="#e377c2" stroke-width="1.375" x1="-1" x2="82" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">认证授权</div></div></foreignObject></g><g data-depth="3" data-path="1.15.17" class="markmap-node" transform="translate(277, 63.0625)"><line stroke="#7f7f7f" stroke-width="1.375" x1="-1" x2="82" y1="20.6875" y2="20.6875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">通信加密</div></div></foreignObject></g><g data-depth="2" data-path="1.15" class="markmap-node" transform="translate(117, 49.875)"><line stroke="#1f77b4" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><circle stroke-width="1.5" r="6" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="80" cy="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">网络安全</div></div></foreignObject></g><g data-depth="2" data-path="1.18" class="markmap-node" transform="translate(117, 94.4375)"><line stroke="#9467bd" stroke-width="1.75" x1="-1" x2="98" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="80" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">数据库系统</div></div></foreignObject></g><g data-depth="2" data-path="1.19" class="markmap-node" transform="translate(117, 121.1875)"><line stroke="#7f7f7f" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">数据科学</div></div></foreignObject></g><g data-depth="2" data-path="1.20" class="markmap-node" transform="translate(117, 147.9375)"><line stroke="#bcbd22" stroke-width="1.75" x1="-1" x2="82" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">人工智能</div></div></foreignObject></g><g data-depth="2" data-path="1.21" class="markmap-node" transform="translate(117, 174.6875)"><line stroke="#bcbd22" stroke-width="1.75" x1="-1" x2="76" y1="20.875" y2="20.875"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="58" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">CS 分工</div></div></foreignObject></g><g data-depth="1" data-path="1" class="markmap-node" transform="translate(0, -10)"><line stroke="#1f77b4" stroke-width="2.5" x1="-1" x2="39" y1="21.25" y2="21.25"/><circle stroke-width="1.5" r="6" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="37" cy="21.25"/><foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="21" height="20"><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">CS</div></div></foreignObject></g></g></svg>
